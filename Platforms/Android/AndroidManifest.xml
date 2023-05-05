@@ -1,14 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 	<application android:allowBackup="true" android:icon="@mipmap/appicon" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
-    <!--
-    ** CODE BELOW DID NOT WORK, BUT LEFT IN FOR FUTURE REFERENCE ** \\
-    <service android:name=".EmulatorService" android:exported="true" android:permission="android.permission.BIND_NFC_SERVICE">
-      <intent-filter>
-        <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE"/>
-      </intent-filter>
-      <meta-data android:name="android.nfc.cardemulation.host_apdu_service" android:resource="@xml/apduservice"/>
-    </service>-->
     <meta-data android:name="android.nfc.cardemulation.host_apdu_service" android:value=".EmulatorService"/>
   </application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
