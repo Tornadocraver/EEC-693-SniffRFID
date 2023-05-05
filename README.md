@@ -6,3 +6,6 @@ Please note:
 - Not yet tested on iOS.
 
 Please contact Tornadocraver for further instructions or open an issue on the `Issues` page.
+
+### <a href="https://youtu.be/SHZYjZvgCYI">App Demo Video</a>
+### <a href="https://youtu.be/WuYnYb2nuQE">Presentation Video</a>
